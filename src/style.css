@@ -1,0 +1,26 @@
+/* style.css */
+.navbar-custom {
+    background: linear-gradient(180deg, #c0392b, #e74c3c); /* Léger dégradé rouge */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère sous la barre de menu */
+  }
+  
+  .navbar-custom .nav-link {
+    color: white !important;
+    margin-right: 1rem;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: white !important;
+  }
+  
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .nav-link:focus {
+    color: #dfdfdf !important; /* Couleur survolée */
+  }
+  
+  .navbar-custom .navbar-nav .nav-link.active {
+    color: #ffffff !important; /* Couleur active */
+  }
+  
